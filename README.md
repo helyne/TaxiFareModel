@@ -22,15 +22,15 @@ Unittest test:
 make clean install test
 ```
 
-Check for TaxiFareModel in gitlab.com/{group}.
+Check for TaxiFareModel in gitlab.com/helyne.
 If your project is not set please add it:
 
-- Create a new project on `gitlab.com/{group}/TaxiFareModel`
+- Create a new project on `gitlab.com/helyne/TaxiFareModel`
 - Then populate it:
 
 ```bash
-##   e.g. if group is "{group}" and project_name is "TaxiFareModel"
-git remote add origin git@github.com:{group}/TaxiFareModel.git
+##   e.g. if group is "helyne" and project_name is "TaxiFareModel"
+git remote add origin git@github.com:helyne/TaxiFareModel.git
 git push -u origin master
 git push -u origin --tags
 ```
@@ -46,7 +46,7 @@ TaxiFareModel-run
 
 # Install
 
-Go to `https://github.com/{group}/TaxiFareModel` to see the project, manage issues,
+Go to `https://github.com/helyne/TaxiFareModel` to see the project, manage issues,
 setup you ssh public key, ...
 
 Create a python3 virtualenv and activate it:
@@ -59,7 +59,7 @@ deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
 Clone the project and install it:
 
 ```bash
-git clone git@github.com:{group}/TaxiFareModel.git
+git clone git@github.com:helyne/TaxiFareModel.git
 cd TaxiFareModel
 pip install -r requirements.txt
 make clean install test                # install and test
